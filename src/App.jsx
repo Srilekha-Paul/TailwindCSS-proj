@@ -1,16 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import Login from './components/login'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const Login = () => {
   return (
-    <>
-      <h1 className='text-[50px]'>Hello Tailwind Css</h1>
-    </>
+    <div>
+      <Login/>
+      </div>
   )
 }
 
-export default App
+export default Login
